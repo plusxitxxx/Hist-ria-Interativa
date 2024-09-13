@@ -6,54 +6,55 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "[Capítulo 1: A Entrada na Mansão] Descrição: Você está diante da grande mansão antiga. As janelas estão cobertas de sujeira e as portas estão trancadas. Há duas opções:",
         alternativas: [
+            
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "1- Forçar a entrada pela porta da frente.",
+                afirmacao: "Forçar a entrada pela porta da frente. Você usa uma ferramenta de arrombamento e consegue abrir a porta. O corredor está coberto de poeira e teias de aranha. Você ouve um sussurro distante vindo do andar superior.(Subir a escada para o andar superior e explorar: O andar superior contém uma sala coberta de objetos antigos, incluindo um diário que parece ter informações sobre a entidade que assombra a mansão. [PROGRESSO: Capítulo 2]) "
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "2- Explorar o jardim ao redor da mansão.",
+                afirmacao: "Explorar o jardim ao redor da mansãoVocê encontra um portão enferrujado e uma trilha de passos na terra úmida. O portão está parcialmente aberto. (Ao explorar mais, você cai em uma armadilha oculta.Tentar escapar da armadilha: A armadilha é mortal e você é capturado pela Entidade Sombria que te mata. [FIM: MORTE])"
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "[Capítulo 2: O Interior da Mansão] Descrição: No andar superior da mansão, você encontra um diário antigo que menciona rituais e um porão misterioso. Há duas opções para prosseguir.",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "1- Forçar a entrada pela porta da frente.",
+                afirmacao: "Você usa uma ferramenta de arrombamento e consegue abrir a porta. O corredor está coberto de poeira e teias de aranha. Você ouve um sussurro distante vindo do andar superior.(Subir a escada para o andar superior e explorar: O andar superior contém uma sala coberta de objetos antigos, incluindo um diário que parece ter informações sobre a entidade que assombra a mansão. [PROGRESSO: Capítulo 2])"
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "2- Explorar o jardim ao redor da mansão.",
+                afirmacao: "Você encontra um portão enferrujado e uma trilha de passos na terra úmida. O portão está parcialmente aberto. Ao explorar mais, você cai em uma armadilha oculta. (Tentar escapar da armadilha: A armadilha é mortal e você é capturado pela Entidade Sombria que te mata. [FIM: MORTE])"
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: " [Capítulo 3: O Enigma da Mansão] Descrição: Com os documentos e informações sobre a Entidade Sombria, você deve decidir como enfrentar o problema.",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "1- Usar o ritual descrito no diário para confrontar a Entidade Sombria.",
+                afirmacao: "Você realiza o ritual conforme o diário. A energia se torna densa e a Entidade Sombria aparece furiosa. Você precisa agir rapidamente.(Realizar o ritual com precisão: O ritual enfraquece a entidade, mas você precisa sair da mansão antes que ela desabe. [PROGRESSO: Capítulo 4])"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "2- Seguir o mapa para uma rota secreta que leva a um local desconhecido.",
+                afirmacao: "O mapa leva você a um subterrâneo escondido onde você encontra uma passagem para uma sala oculta com novos artefatos e informações sobre como lidar com a entidade. (Explorar a sala oculta: A sala contém um artefato poderoso que pode ser usado para banir a entidade, mas requer mais preparação. [PROGRESSO: Capítulo 4])"
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "[Capítulo 4: O Confronto] Descrição: Agora que você tem a informação e os artefatos necessários, é hora de enfrentar a Entidade Sombria de forma decisiva",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "1- Usar o artefato encontrado para banir a entidade definitivamente.",
+                afirmacao: "Você utiliza o artefato encontrado para tentar banir a Entidade Sombria. O artefato emite uma energia poderosa que deve destruir a entidade. (Completar o ritual com sucesso: A entidade é banida e você consegue sair da mansão com segurança, e a mansão é deixada para sempre limpa das forças malignas. [PROGRESSO: Capítulo 5])"
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "2- Tentar selar a mansão para que a entidade não possa sair.",
+                afirmacao: "Você tenta selar a mansão usando os artefatos e conhecimentos que encontrou. No entanto, a Entidade Sombria percebe seu plano e te ataca antes que você complete a tarefa. (Falhar em selar a mansão: A entidade o captura e você morre. [FIM: MORTE])"
             }
         ]
     },
