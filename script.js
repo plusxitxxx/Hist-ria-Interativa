@@ -59,15 +59,15 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "[Capítulo 5: O Desfecho] Descrição: Você chegou ao momento final. Com todas as informações e artefatos, você deve tomar a última decisão sobre o destino da mansão e da Entidade Sombria.",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "1- Destruir a fonte da entidade usando um ritual final.",
+                afirmacao: "[Escolha 1: Destruir a fonte da entidade usando um ritual final.] Você realiza um ritual poderoso para destruir a fonte da Entidade Sombria. A energia do ritual é intensa e destrói a entidade e suas forças malignas. (Completar o ritual com sucesso: A entidade é destruída, e você consegue sair da mansão em segurança. A mansão é finalmente limpa de sua influência. [FIM: FINAL FELIZ])"
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "2- Tentar usar um feitiço para selar a entidade dentro da mansão.",
+                afirmacao: "[Escolha 2: Tentar usar um feitiço para selar a entidade.] Você tenta usar um feitiço encontrado para selar a entidade dentro da mansão. O feitiço tem efeitos inesperados e falha. (Feitiço mal executado: A entidade se enfurece e o ataque é fatal. Você morre na mansão. [FIM: MORTE])"
             }
         ]
     },
